@@ -1,8 +1,12 @@
+import { Container } from '../src/components/Container';
+import { TheHeader } from '../src/components/TheHeader';
+
 function App() {
+
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <Container>
+      <TheHeader />
+    </Container>
   );
 }
 
